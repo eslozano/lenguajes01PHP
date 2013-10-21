@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.16)  21 OCT 2013 15:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.20)  21 OCT 2013 16:42
 entering extended mode
 **PHP.tex
-(C:\Users\Vaio\.ssh\lenguajes01PHP\PHP.tex
+(C:\Users\NiAS\.ssh\lenguajes01PHP\PHP.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -445,7 +445,7 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftsubtabindent=\skip98
 \cftsubtabnumwidth=\skip99
 )
-(C:\Users\Vaio\.ssh\lenguajes01PHP\PHP.aux)
+(C:\Users\NiAS\.ssh\lenguajes01PHP\PHP.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
@@ -525,7 +525,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-(C:\Users\Vaio\.ssh\lenguajes01PHP\PHP.aux) ) 
+(C:\Users\NiAS\.ssh\lenguajes01PHP\PHP.aux) ) 
 Here is how much of TeX's memory you used:
  3836 strings out of 493921
  57030 string characters out of 3144878

@@ -29,6 +29,11 @@
 \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{graphicx} % can include graphics
+\usepackage{float}
+\usepackage{listings}
+\usepackage{url}
+\usepackage[spanish]{babel}
 % These packages are all incorporated in the memoir class to one degree or another...
 
 %%% HEADERS & FOOTERS
@@ -54,7 +59,7 @@
 %%% The "real" document content comes below...
 
 \title{Lenguaje de programacion PHP}
-\author{The Author}
+\author{Lozano E. ,Lasso H. \& Alvarado L.}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
 
@@ -62,28 +67,30 @@
 \maketitle
 
 \section{Introducción}
+PHP es un lenguaje de programación definido para el desarrollo web de contenido dinámico y que se caracteriza por ser de código abierto. Sus siglas son un acrónimo recursivo de: “PHP: Hypertext Preprocessor” y actualmente ya en su quinta versión (PHP 5).
+\\¿Qué hace a PHP importante? este lenguaje se ejecuta justo antes de enviar una página desde el servidor web a la ventana del usuario como vemos en la Figura \ref{fig:funcionamiento}, y su respuesta es una página en código HTML, he allí su compatibilidad con todos los navegadores, sistemas operativos y plataformas.  Es fácil de utilizar y con grandes ventajas como la gratuidad, independencia de plataforma, rapidez y seguridad. 
 
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=0.4\textwidth]{Imagenes/diagrama-php}
+  \caption{Esquema del funcionamiento de las páginas PHP}
+  \label{fig:funcionamiento}
+\end{figure}
+ Y aunque este lenguaje tiene muchas ventajas, aun no se encuentra disponible un IDE con el cual mejorar su usabilidad; aunque igual trabaja muy bien y ha tomado así el papel principal del scripting (un lenguaje scripting es un tipo de lenguaje de programación que es generalmente interpretado) \cite{[1]}.
 
 \section{Características}
 
-
-•	Puede ser utilizado  en diversas plataformas, es decir que es multiplataforma.
-
-•	Ofrece diferentes estrategias para manejar excepciones.
-
-•	Posee una amplia biblioteca nativa de funciones.
-
-•	Permite técnicas de programación orientada a objetos.
-
-•	Orientado a desarrollo de aplicaciones web dinámicas.
-
-•	Todas las funciones del sistema están explicadas en un  archivo de ayuda.
-
-•	Es un software libre, es decir de fácil acceso para todos.
-
-•	Puede conectarse con la mayoría de los motores de bases de datos que se utilizan en la actualidad.
-
-•	Es seguro y confiable debido a que su código fuente es invisible tanto al navegador como al cliente.
+\begin{itemize}
+\item Puede ser utilizado  en diversas plataformas, es decir que es multiplataforma.
+\item Ofrece diferentes estrategias para manejar excepciones.
+\item Posee una amplia biblioteca nativa de funciones.
+\item Permite técnicas de programación orientada a objetos.
+\item Orientado a desarrollo de aplicaciones web dinámicas.
+\item Todas las funciones del sistema están explicadas en un  archivo de ayuda.
+\item Es un software libre, es decir de fácil acceso para todos.
+\item Puede conectarse con la mayoría de los motores de bases de datos que se utilizan en la actualidad.
+\item Es seguro y confiable debido a que su código fuente es invisible tanto al navegador como al cliente.
+\end {itemize}
 
 \section{Historia}
 
@@ -96,7 +103,6 @@ En 1997 debido a que PHP/FI era ineficiente y carente de las características qu
 
 En el invierno de 1998 Andi Gutmans y Zeev Suraski empezaron a trabajar en una nueva version de PHP, donde desarrollaron un nuevo motor llamado Motor Zend que viene de los nombres de pila Zeev y Andi.Una de la características importantes de esta versión es el soporte para la mayoría de servidores web, buffers de salida, sesiones HTTP y formas más seguras de controlar las entradas de usuarios.
 
-
 Esta versión llamada PHP 4.0 fue publicada en Mayo del 2000 aproximadamente  dos años después que salió la versión PHP 3.0.
 En la siguiente versión de PHP se trato de mejorar los mecanismos de la programación orientada a objetos dando como resultado un lenguaje más potente y que cada vez se hizo más popular, esta versión fue publicada en el año 2004 y se la llamo como PHP 5.0 
  
@@ -104,7 +110,42 @@ En la siguiente versión de PHP se trato de mejorar los mecanismos de la program
 \section{Tutorial de Instalación}
 
 \section{Hola Mundo y otros Programas Introductorios}
+PHP es manejable cuando entendemos programación en HTML, ya que maneja conceptos conocidos como la cabecera (header), el cuerpo (body), etiquetas de apertura y cierre, entre otros. Y así seria un "Hola mundo" en PHP:
+
+\begin{lstlisting}[frame=single]  % Start your code-block
+
+<html>
+    <head>
+        <title>Ejemplo</title>
+    </head>
+    <body>
+        <?php
+            echo "Hola mundoooooo :D";
+        ?>
+    </body>
+</html>
+\end{lstlisting}
+\begin{center}
+Esquema del funcionamiento de las páginas PHP \cite{[2]}
+\end{center}
+Y así lo veriamos:
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=0.5\textwidth]{Imagenes/HolaMundoPHP-Navegador}
+  \caption{Un Hola Mundo con PHP}
+  \label{fig:funcionamiento}
+\end{figure}
 
 
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{[1]}  \textit Definición del Lenguaje Scripting [Online]. Available: \url{http://www.alegsa.com.ar/Dic/lenguaje%20scripting.php} Verificado: Octubre 21 - 2013
+\bibitem{[2]}  \textsc{ PHP Group} \textit '¿Que es PHP?' [Online].Available: \url{http://php.net/manual/es/intro-whatis.php}  Verificado: Octubre 21 - 2013
+\bibitem{[3]}  \textsc{ PHP Group} \textit Historia de PHP [Online]. Available \url{http://php.net/manual/es/history.php.php}  Verificado: Octubre 21 - 2013
+\bibitem{[4]}  \textsc{ EcuRed} \textit PHP [Online]. Available \url{http://www.ecured.cu/index.php/PHP}  Verificado: Octubre 21 - 2013
+\end{thebibliography}
 
 \end{document}

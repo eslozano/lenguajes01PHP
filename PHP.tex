@@ -109,6 +109,47 @@ En la siguiente versión de PHP se trato de mejorar los mecanismos de la program
 
 \section{Tutorial de Instalación}
 
+
+Antes de empezar con la instalación, primero necesita saber para qué quiere utilizar PHP. Existen tres campos principales donde se puede utilizar PHP:
+
+\begin {itemize}
+
+\item Aplicaciones web y sitios web
+\item Scripting en la línea de comandos
+\item Aplicaciones de escritorio (GUI)
+\end {itemize}
+
+Para la primera forma mencionada, que es la más común, se necesitan tres cosas: PHP, un servidor web y un navegador web. Seguramente ya disponga del navegador web y, dependiendo de la configuración del sistema operativo, quizá ya tenga un servidor web (Apache en Linux y MacOS X; IIS en Windows). También puede alquilar espacio web en una empresa, de esta forma, no se necesita instalar nada, solo tiene que escribir los scripts de PHP, subirlos al servidor que alquile y ver los resultados en su navegador.\\
+
+En caso de configurar el servidor y PHP por su cuenta, existen dos opciones para el modo de conectar PHP con el servidor. Para muchos servidores, PHP tiene un módulo de interfaz directo (también llamado SAPI). Entre estos servidores se incluyen Apache, Microsoft Internet Information Server, Netscape y iPlanet. Muchos otros servidores tienen soporte para ISAPI, el módulo de interfaz de Microsoft (OmniHTTPd por ejemplo). Si PHP no tiene soporte para el módulo de su servidor web, siempre puede usarlo como procesador CGI o FastCGI. Esto significa configurar el servidor para usar el CGI ejecutable de PHP para procesar cada una de las peticiones a ficheros PHP en el servidor.\\
+
+Para usar PHP bajo la línea de comandos (p.ej. escribir scripts que autogeneran imágenes de forma offline, o procesar ficheros de texto dependiendo de los argumentos que se les pasen),  se necesitará el ejecutable de línea de comandos. En este caso, no se necesita ningún servidor o navegador.\\
+
+Con PHP también se pueden escribir aplicaciones GUI de escritorio usando la extensión PHP-GTK. Este enfoque no tiene nada que ver con escribir páginas web, ya que no se muestra nada de HTML, pero gestiona ventanas y objetos dentro de ellas. PHP-GTK no está incluido en la distribución oficial de PHP.
+
+\subsection{Instalacion Sistemas Unix}
+
+Existen varias maneras de instalar PHP para la plataforma Unix, ya sea con un proceso de compilar y configurar, o a través de varios métodos pre-empaquetados. Usar una version pre-empaquetada puede ayudar en preparar una configuración standard, pero si se requiere tener un conjunto diferente de características (tales como un servidor seguro, o un manejador diferente de base de datos), podría ser necesario construir PHP y/o el servidor web. Si no se está familiarizado con la construcción y el compilado de su propio software, vale la pena revisar para ver si alguien ya ha construido una versión empaquetada de PHP con las características que se necesitan.
+
+\subsection{Instalacion en sistemas Windows}
+
+Estas instruccione se aplican a Windows 98/Me y Windows NT/2000/XP/2003. Windows 98/Me/NT4 ya no se admite a partir de PHP 5.3.0. Windows 95 ya no se admite a partir de PHP 4.3.0.
+
+\begin{enumerate}
+\item Instale el servidor web deseado.
+
+\item Ejecute el instalador MSI(\url{http://windows.php.net/download/#php-5.5}) y siga las instrucciones que le indica el asistente de instalación.\\
+\includegraphics{Imagenes/install01.jpg}
+
+\item Seleccione el Servidor Web que desea configurar. (Este ya debe estar instalado previamente)\\
+\includegraphics{Imagenes/install02.jpg}
+
+\item Indique qué funcionalidades y extensiones desea instalar y habilitar. Se recomienda no instalar todas las extensiones de forma predeterminada, ya que muchas de ellas tienen dependencias con bibliotecas externas a PHP.\\
+\includegraphics{Imagenes/install03.jpg}
+\end{enumerate}
+
+Finalmente, el instalador inicializa tanto el fichero php.ini como al propio PHP para funcionar en Windows. También podrá configurar algunos servidores web para que utilicen PHP. Actualmente es capaz de configurar IIS, Apache, Xitami y Sambar; si utiliza otro servidor web, deberá configurarlo a mano.
+
 \section{Hola Mundo y otros Programas Introductorios}
 PHP es manejable cuando entendemos programación en HTML, ya que maneja conceptos conocidos como la cabecera (header), el cuerpo (body), etiquetas de apertura y cierre, entre otros. Y así seria un "Hola mundo" en PHP:
 
@@ -146,6 +187,8 @@ Y así lo veriamos:
 \bibitem{[2]}  \textsc{ PHP Group} \textit '¿Que es PHP?' [Online].Available: \url{http://php.net/manual/es/intro-whatis.php}  Verificado: Octubre 21 - 2013
 \bibitem{[3]}  \textsc{ PHP Group} \textit Historia de PHP [Online]. Available \url{http://php.net/manual/es/history.php.php}  Verificado: Octubre 21 - 2013
 \bibitem{[4]}  \textsc{ EcuRed} \textit PHP [Online]. Available \url{http://www.ecured.cu/index.php/PHP}  Verificado: Octubre 21 - 2013
+\bibitem{[5]}  \textsc{PHP,Instalación y configuración} \url{http://www.php.net/manual/es/install.php}  Verificado: Octubre 21 - 2013
+
 \end{thebibliography}
 
 \end{document}

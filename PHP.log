@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.20)  21 OCT 2013 21:55
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.20)  21 OCT 2013 21:44
 entering extended mode
 **PHP.tex
-(C:\Users\NiAS\.ssh\lenguajes01PHP\PHP.tex
+
+("D:\ESPOL\7. SEPTIMO SEMESTRE\LENGUAJES DE PROGRAMACIÓN\PRIMER DEBER - LENGUA
+JE PHP\Documento en Latex\PHP.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -507,7 +509,8 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftsubtabindent=\skip98
 \cftsubtabnumwidth=\skip99
 )
-(C:\Users\NiAS\.ssh\lenguajes01PHP\PHP.aux
+("D:\ESPOL\7. SEPTIMO SEMESTRE\LENGUAJES DE PROGRAMACIÓN\PRIMER DEBER - LENGUA
+JE PHP\Documento en Latex\PHP.aux"
 
 LaTeX Warning: Label `fig:funcionamiento' multiply defined.
 
@@ -593,37 +596,40 @@ Package pdftex.def Info: Imagenes/diagrama-php.jpg used on input line 75.
 (pdftex.def)             Requested size: 167.2989pt x 161.14236pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/NiAS/.ssh/lengua
-jes01PHP/Imagenes/diagrama-php.jpg>] [2]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 107.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/ESPOL/7. SEPTIMO SEMES
+TRE/LENGUAJES DE PROGRAMACIÓN/PRIMER DEBER - LENGUAJE PHP/Documento en Latex/I
+magenes/diagrama-php.jpg>] [2]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 117.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 107.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 117.
 
 <Imagenes/HolaMundoPHP-Navegador.jpg, id=13, 360.59718pt x 176.91093pt>
 File: Imagenes/HolaMundoPHP-Navegador.jpg Graphic file (type jpg)
 
 <use Imagenes/HolaMundoPHP-Navegador.jpg>
 Package pdftex.def Info: Imagenes/HolaMundoPHP-Navegador.jpg used on input line
- 124.
+ 134.
 (pdftex.def)             Requested size: 209.12683pt x 102.59761pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 131.
- [3 <C:/Users/NiAS/.ssh/lenguajes01PHP/Imagenes/HolaMundoPHP-Navegador.jpg>]
-(C:\Users\NiAS\.ssh\lenguajes01PHP\PHP.aux)
+(Font)              <10.95> on input line 145.
+ [3 <D:/ESPOL/7. SEPTIMO SEMESTRE/LENGUAJES DE PROGRAMACIÓN/PRIMER DEBER - LEN
+GUAJE PHP/Documento en Latex/Imagenes/HolaMundoPHP-Navegador.jpg>] [4]
+("D:\ESPOL\7. SEPTIMO SEMESTRE\LENGUAJES DE PROGRAMACIÓN\PRIMER DEBER - LENGUA
+JE PHP\Documento en Latex\PHP.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6185 strings out of 493921
- 87522 string characters out of 3144878
- 158558 words of memory out of 3000000
- 9408 multiletter control sequences out of 15000+200000
+ 6186 strings out of 493921
+ 88010 string characters out of 3144878
+ 159558 words of memory out of 3000000
+ 9409 multiletter control sequences out of 15000+200000
  9612 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,10n,43p,734b,1245s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -636,9 +642,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on PHP.pdf (3 pages, 185726 bytes).
+Output written on PHP.pdf (4 pages, 186992 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

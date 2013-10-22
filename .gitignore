@@ -32,5 +32,5 @@
 *.tdo
 .DS_Store
 PHP.pdf
-thumbs.dll
+thumbs.db
 PHP.synctex.gz

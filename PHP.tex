@@ -132,7 +132,40 @@ Existen varias maneras de instalar PHP para la plataforma Unix, ya sea con un pr
 \subsection{Instalacion en sistemas Windows}
 
 \begin{enumerate}
-\item Instale el servidor web deseado.
+\item Instale el servidor web deseado.\\
+Para Instalar Apache siga las siguientes instrucciones:
+\begin{enumerate}[a)]
+\item Descargue Apache desde el sitio Oficial (\url{http://httpd.apache.org/download.cgi})
+\item Siga las Instrucciones del Instalador
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache01.jpg}
+\end{center}
+\item Configure la informacion del servidor. Para utilizar Apache como un servidor web local se debe colocar  como el dominio de red ``localhost''; el nombre del dominio puede ser cualquier string. Tipicamente el Email del administrador se coloca como ``root@localhost''
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache02.jpg}
+\end{center}
+\item Si desea personalizar los componentes a instalar seleccione ``Custom'', si no``Typical''
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache03.jpg}
+\end{center}
+\item Al terminar de configurar la Instalacion de clic a Instalar
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache04.jpg}
+\end{center}
+\item Durante el proceso de instalacion de Apache se abriran varias ventanas de DOS, debido a las configuraciones en la linea de comando.
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache05.jpg}
+\end{center}
+\item De click en finalizar para terminar la instalacion
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache06.jpg}
+\end{center}
+\item Para probar que Apache se instalo correctamente vaya a su explorador web y entre a la pagina ``http://localhost'', la cual mostrará lo siguiente
+\begin{center}
+\includegraphics[scale=0.7]{Imagenes/Apache07.jpg}
+\end{center}
+
+\end{enumerate} 
 
 \item Ejecute el instalador MSI(\url{http://windows.php.net/download/#php-5.5}) y siga las instrucciones que le indica el asistente de instalación.
 \begin{center}
@@ -191,7 +224,8 @@ Hasta el momento la funcionalidad del código es la solicitada.
 \bibitem{[2]}  \textsc{ PHP Group} \textit '¿Que es PHP?' [Online].Available: \url{http://php.net/manual/es/intro-whatis.php}  Verificado: Octubre 21 - 2013
 \bibitem{[3]}  \textsc{ PHP Group} \textit Historia de PHP [Online]. Available \url{http://php.net/manual/es/history.php.php}  Verificado: Octubre 21 - 2013
 \bibitem{[4]}  \textsc{ EcuRed} \textit PHP [Online]. Available \url{http://www.ecured.cu/index.php/PHP}  Verificado: Octubre 21 - 2013
-\bibitem{[5]}  \textsc{PHP,Instalación y configuración} \url{http://www.php.net/manual/es/install.php}  Verificado: Octubre 21 - 2013
+\bibitem{[5]}  \textsc{Installing Apache on Windows} \url{http://www.ross.ws/content/installing-apache-windows}  Verificado: Octubre 23 - 2013
+\bibitem{[6]}  \textsc{PHP,Instalación y configuración} \url{http://www.php.net/manual/es/install.php}  Verificado: Octubre 21 - 2013
 
 \end{thebibliography}
 
